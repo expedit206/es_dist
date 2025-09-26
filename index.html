@@ -1,42 +1,64 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/" href="/assets/logo-ba4eAQQi.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <meta name="csrf-token" content="{{ csrf_token() }}">  -->
-    <title>Espace cameroon</title>
-<link rel="stylesheet" href="/src/assets/css/main.css ">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  integrity="sha512-dD8F2cFzXmkxq6Kj7Xn+z4U+d1vzyLJxXIkhtw6vF9TP2e9bXxE4EJk3bU7qSvT6X7WzRVDM0AhmOYIedWzZ2Q=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!DOCTYPE html>
+<html lang="fr"> <!-- Changé en 'fr' pour Espace Cameroun -->
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description"
+    content="Espace Cameroun est une marketplace en ligne pour connecter commerçants et clients au Cameroun. Découvrez des produits locaux, collaborez et gagnez des jetons !" />
+  <meta name="keywords"
+    content="Espace Cameroun, marketplace, commerçants, clients, produits locaux, jetons, économie numérique" />
+  <meta name="author" content="Votre Nom ou Entreprise" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph pour les réseaux sociaux -->
+  <meta property="og:title" content="Espace Cameroun - Marketplace Locale" />
+  <meta property="og:description"
+    content="Rejoignez Espace Cameroun pour acheter, vendre et collaborer localement au Cameroun !" />
+  <meta property="og:image" content="https://api.espacecameroun.com/src/assets/images/logo.png" />
+  <meta property="og:url" content="https://espacecameroun.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Espace Cameroun - Marketplace Locale" />
+  <meta name="twitter:description"
+    content="Rejoignez Espace Cameroun pour acheter, vendre et collaborer localement au Cameroun !" />
+  <meta name="twitter:image" content="https://api.espacecameroun.com/src/assets/images/logo.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/LOGO_blanc-Ckb3us16.png" />
+  
+  <!-- CSS -->
+  <!-- Garder uniquement la dernière version de Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script type="module" crossorigin src="/assets/index-BM3hRkjk.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/vue-D22jj4LC.js">
-    <link rel="modulepreload" crossorigin href="/assets/pinia-yzfThc-V.js">
-    <link rel="modulepreload" crossorigin href="/assets/axios-Dq7h7Pqt.js">
-    <link rel="modulepreload" crossorigin href="/assets/app-components-Ow0yXu0b.js">
-    <link rel="stylesheet" crossorigin href="/assets/vue-DnojJsHo.css">
-    <link rel="stylesheet" crossorigin href="/assets/app-components-0vFtAzwH.css">
-    <link rel="stylesheet" crossorigin href="/assets/index-Bg7GlRTO.css">
-  </head>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script type="text/javascript">
-  (function () {
-    // emailjs.init({
-    //   publicKey: "oI96z_b6E-d8WjfOM",
-    // });
-   const emailjs = window.emailjs.init("oI96z_b6E-d8WjfOM"); // Remplacez par votre clé publique EmailJS
-  })();
+  <!-- Titre -->
+  <title>Espace Cameroun</title>
+  <script type="module" crossorigin src="/assets/index-DONix1Ca.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vue-D22jj4LC.js">
+  <link rel="modulepreload" crossorigin href="/assets/pinia-yzfThc-V.js">
+  <link rel="modulepreload" crossorigin href="/assets/axios-Dq7h7Pqt.js">
+  <link rel="modulepreload" crossorigin href="/assets/app-components-Db_T_3cC.js">
+  <link rel="stylesheet" crossorigin href="/assets/vue-DnojJsHo.css">
+  <link rel="stylesheet" crossorigin href="/assets/app-components-DKSCGIkS.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-Bg7GlRTO.css">
+</head>
 
-</script>
+<body class="overflow-hidden h-[100vh]">
+  <div id="app" class="w-full h-full h-[100vh]"></div>
 
-  <body class="overflow-hidden    h-[100vh] ">
-    <div id="app" class=" w-full h-full h-[100vh] "></div>
-    
-  </body>
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("oI96z_b6E-d8WjfOM"); // Clé publique EmailJS
+    })();
+  </script>
+
+  <!-- Script principal -->
+</body>
+
 </html>
